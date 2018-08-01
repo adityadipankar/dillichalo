@@ -1,6 +1,10 @@
 <html>
 
 <head>
+  <script>
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+
+  </script>
   <style>
     body{
       /* padding: 50px; */
@@ -15,7 +19,7 @@
     }
     .container{
       max-width: 700px;
-      background: rgba(255,255,255,0.9);
+      background: rgba(255,255,255,0.95);
       padding: 40px;
     }
     .site-title{
@@ -32,8 +36,9 @@
       color: #00020a;
     }
     h2{
-      font-family: helvetica;
+      font-family: 'Slabo 27px';
       line-height: 30px;
+      font-weight: 300;
     }
     .heading{
       font-size: 16px;
@@ -52,11 +57,13 @@
       //h1{font-size: 100px;}
       }
       #time{
-        /* color:white; */
-        /* border-bottom: 2px solid #00020a; */
-        padding-bottom: 30px;
+        color: white;
         margin-top: 0px;
-        /* text-shadow: 0px 0px 17px rgba(0,0,0,0.7); */
+        border: 3px solid black;
+        padding: 9px 15px;
+        width: fit-content;
+        border-radius: 5px;
+        background: black;
       }
     .text-red{
       color:#f82c14;
@@ -66,7 +73,7 @@
 
 <body>
   <div class='container'>
-    <h1 class='text-red site-title'>DilliChalo!<br/>Let's march with the farmers</h1>
+    <h1 class='text-red site-title'>DilliChalo!<br/><span style='color:black'>Let's march with<br/>the farmers</span></h1>
     <h2 class='heading'>Days to go</h2>
     <h1 id="time"></h1>
     <script>
